@@ -98,7 +98,7 @@ $(function () {
 	$("#login img").on("click", function () {
 		FB.login(function(response) {
 			if (response.authResponse) {
-				_wdfb_notifyAndRedirect();
+				_wdfb_notifyAndRedirect(./);
 			}
 		});
 	});
