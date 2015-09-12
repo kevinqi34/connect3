@@ -25,6 +25,7 @@ body {
 	border: 1px solid #e2e2e2;
 	background: rgba(242, 242, 242, .4);
 	border-radius: 20px;
+	text-align: center;
 
 
 
@@ -100,6 +101,9 @@ div.square img {
 
 
 	}	
+
+
+
 	
 div.square img {
 	width: 58px;
