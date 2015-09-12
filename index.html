@@ -89,13 +89,13 @@
 <p><span><b>Connect</b></span><span>3</span></p>
 
 
-<div id='login'><img id='facebooklog' src="http://s4.postimg.org/42pgxm8j1/facebooklogin.png" /></div>
+<img id='facebooklog' src="http://s4.postimg.org/42pgxm8j1/facebooklogin.png" />
 
 <script>
 
 (function ($) {
 $(function () {
-	$("#login img").on("click", function () {
+	$("#facebooklog").on("click", function () {
 		FB.login(function(response) {
 			if (response.authResponse) {
 				_wdfb_notifyAndRedirect();
