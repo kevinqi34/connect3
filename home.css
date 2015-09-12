@@ -69,13 +69,13 @@ body {
 	}	
 	
 	
-#center #facebooklog {
+#center body {
 	position: relative;
 	left: 50%;
 	width: 220px;
 	margin-left: -110px;
 	margin-top: 35px;
-
+	border: 1px solid black;
 
 
 	}	
