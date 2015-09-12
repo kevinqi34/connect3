@@ -1,0 +1,138 @@
+
+#center {
+
+	overflow: auto;
+	width: 1206px;
+	height: 706px;
+	border-radius: 10px;
+	position: fixed;
+	left: 50%;
+	margin-left: -610px;
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+#center div.friend {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 400px;
+	height: 700px;
+	position: relative;
+	float: left;
+
+
+
+
+
+	}
+	
+	
+	
+#center div.friend p.name {
+		border: 1px solid black;
+		text-align: center;
+		height: 50px;
+		margin-top: 30px;
+
+
+
+
+	}	
+	
+	
+	
+#center div.friend img {
+	
+			border: 1px solid black;
+			position: absolute;
+			left: 50%;
+			margin-left: -100px;
+			height: 200px;
+			width: 200px;
+
+
+
+
+
+	}
+	
+	
+	
+#center div.friend img.message {
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 50%;
+			margin-left: -25px;
+			border: none;
+			margin-top: 220px;
+
+
+
+
+
+	}		
+	
+	
+#center div.friend div.info {
+	border: 1px solid black;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -175px;
+	top: 385px;
+	overflow-y: auto;
+
+
+
+		}	
+	
+	
+	
+@media screen and (max-width : 1224px){
+	
+	#center {
+		width: 100%;
+		margin-left:  0;
+		left: 0;
+		
+	
+	
+	
+		}	
+
+
+
+#center div.friend {
+
+	width: calc(100% - 2px);
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+}	
+	
