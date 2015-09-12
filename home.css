@@ -70,12 +70,12 @@ body {
 	}	
 	
 	
-#center #facebooklog {
+ #facebooklog {
 	position: relative;
 	left: 50%;
 	width: 220px;
 	margin-top: 35px;
-	
+	border: 1px solid black;
 
 
 	}	
