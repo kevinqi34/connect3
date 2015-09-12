@@ -89,10 +89,23 @@
 <p><span><b>Connect</b></span><span>3</span></p>
 
 
+<div id='login'><img src="http://s4.postimg.org/42pgxm8j1/facebooklogin.png" /></div>
 
+<script>
 
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();" id="facebooklog">
-</fb:login-button>
+(function ($) {
+$(function () {
+	$("#login img").on("click", function () {
+		FB.login(function(response) {
+			if (response.authResponse) {
+				_wdfb_notifyAndRedirect();
+			}
+		});
+	});
+});
+})(jQuery);
+
+</script>
 
 <div id="status">
 </div>
